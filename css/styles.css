@@ -1,11 +1,11 @@
 body {
     font-family: cursive, Helvetica, sans-serif;
-    background-color:slateblue ;
+    background-image: url(../images/gatitos.jpg);
 color:brown;
 } 
 
 p {
-    color: blue; }
+    color: darkblue; }
 img{
     border:2px solid lightcoral;
 }
