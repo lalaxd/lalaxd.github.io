@@ -1,7 +1,16 @@
 body {
     font-family: cursive, Helvetica, sans-serif;
+    background-color: cornflowerblue;
+
 }   
 p {
     color: blue;
 }
-   
+img{
+    border:2px solid blue ;
+}
+ .resartar{ 
+     font-style: italic;
+     font-weight: bold;
+     color: blue;
+ }  
