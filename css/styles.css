@@ -3,13 +3,11 @@ body {
     background-color:slateblue ;
 
 } 
-<style>
-h1, h2 { color: brown; }
-</style> 
+
 p {
     color: blue; }
 img{
-    border:2px solid green ;
+    border:2px solid lightcoral;
 }
  .resaltar{ 
      font-style: italic;
