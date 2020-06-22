@@ -1,14 +1,17 @@
 body {
     font-family: cursive, Helvetica, sans-serif;
-    background-color:black;
+    background-color:slateblue ;
 
-}   
+} 
+<style>
+h1, h2 { color: brown; }
+</style> 
 p {
     color: blue; }
 img{
-    border:2px solid blue ;
+    border:2px solid green ;
 }
- .resartar{ 
+ .resaltar{ 
      font-style: italic;
      font-weight: bold;
      color: blue;
