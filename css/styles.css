@@ -5,7 +5,10 @@ color:brown;
 } 
 
 p {
-    color: darkblue; }
+    color: darkblue;  
+    list-style: height 2em;;
+}
+    h1, h2 { color: green; }
 img{
     border:2px solid lightcoral;
 }
@@ -14,3 +17,18 @@ img{
      font-weight: bold;
      color: blue;
  }  
+ a{
+     text-decoration: none;
+ }
+ a:link{ 
+     color:green;
+ }
+ a:visited{
+     color:brown;
+ }
+ a:focus{
+     border: 1px dotted black;
+ }
+ a:hover{
+     text-decoration: underline;
+ }
