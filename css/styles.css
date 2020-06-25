@@ -1,15 +1,30 @@
+@font-face {
+    font-family: Fuentetitulo;
+    src: url(Lobster/Lobster-Regular.ttf);
+ 
+} 
+@font-face {
+    font-family: Fuenteparrafo;
+    src: url(Merriweather/Merriweather-Italic.ttf);
+ 
+}
+
 body {
-    font-family: cursive, Helvetica, sans-serif;
+
     background-image: url(../images/image.jpg);
-color:brown;
+
 } 
 
+h1, h2 {
+    font-family: Fuentetitulo;
+    color: green; }
 p {
+    font-family: Fuenteparrafo;
     color: darkblue;  
-    list-style: height 2em;;
-}
-    h1, h2 { color: green; }
+    list-style: height 2em;; }
+
 img{
+
     border:2px solid lightcoral;
 }
  .resaltar{ 
