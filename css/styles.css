@@ -14,6 +14,7 @@ body {
     background-image: url(../images/image.jpg); } 
 .cuadro{
         border: 4px solid brown;
+        padding: 2em;
 }
 h1, h2 {
     font-family: Fuentetitulo;
