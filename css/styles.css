@@ -11,17 +11,25 @@
 
 body {
 
-    background-image: url(../images/image.jpg);
-
-} 
-
+    background-image: url(../images/image.jpg); } 
+    .cuadro{
+        border: 2px solid brown;
+    }
 h1, h2 {
     font-family: Fuentetitulo;
-    color: green; }
+    color: green; 
+    border: 0px solid blue;
+    margin-bottom: 0.5em;
+
+}
 p {
     font-family: Fuenteparrafo;
     color: darkblue;  
-    list-style: height 2em;; }
+    list-style: height 2em;
+    border: 0px dotted blue;
+    padding: 0 2em 1em 1em;
+    margin: 0;
+ }
 
 img{
 
