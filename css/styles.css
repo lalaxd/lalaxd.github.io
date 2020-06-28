@@ -24,7 +24,7 @@ nav{
         color:#f4f4f4;
     }
     nav a:visited{
-        color:brown;
+        color:white;
     }
    nav a:focus{
         border: 1px dotted black;
