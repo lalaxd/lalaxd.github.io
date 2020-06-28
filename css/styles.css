@@ -11,16 +11,14 @@
 
 body {
 
-    background-image: url(../images/image.jpg); }     article{
-
-}
+    background-image: url(../images/gatitos.jpg); }   
 nav, header, article{
     margin: 0 10%;
 }
 nav{
     background-color: black;}
 header{
-    background-color: black;
+    background-color: brown;
     margin: 0 10%;
 }
 article{
