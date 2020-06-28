@@ -16,13 +16,36 @@ nav, header, article{
     margin: 0 10%;
 }
 nav{
-    background-color: black;}
+    background-color: #cf7500;}
+    a{
+        text-decoration: none;
+    }
+    nav a:link{ 
+        color:#f4f4f4;
+    }
+    nav a:visited{
+        color:brown;
+    }
+   nav a:focus{
+        border: 1px dotted black;
+    }
+   nav a:hover{
+        text-decoration: underline;
+    } 
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+    } 
 header{
-    background-color: brown;
+    background-color: black;
+    font-size: 3.5em;
+    color:  white;
     margin: 0 10%;
+    text-align: center;
+    padding: 2rem;
 }
 article{
-    background-color: white;
+    background-color:#f4f4f4;
     padding:  0 2em;
     margin: 0 10%;
 }
@@ -58,18 +81,22 @@ img{
      font-weight: bold;
      color: blue;
  }  
- a{
+ article a{
      text-decoration: none;
  }
- a:link{ 
-     color:green;
+article  a:link{ 
+     color:blue;
  }
- a:visited{
+article a:visited{
      color:brown;
  }
- a:focus{
+article a:focus{
      border: 1px dotted black;
  }
- a:hover{
+article a:hover{
      text-decoration: underline;
  }
+ article ul{
+    list-style-type: square;
+    
+}
