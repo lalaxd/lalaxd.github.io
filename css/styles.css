@@ -16,9 +16,14 @@ nav, header, article{
     margin: 0 10%;
 }
 nav{
-    background-color: #cf7500;}
-    a{
+    background-color: #cf7500;
+    font-family: Fuentetitulo;
+}
+    nav a{
         text-decoration: none;
+        border: 0px solid white;
+        display: block;
+        padding: 1rem;
     }
     nav a:link{ 
         color:#f4f4f4;
@@ -28,14 +33,26 @@ nav{
     }
    nav a:focus{
         border: 1px dotted black;
+
     }
    nav a:hover{
-        text-decoration: underline;
+        
     } 
     nav ul{
         list-style-type: none;
         margin: 0;
         } 
+    nav li{
+        border: 1px solid #f0a500;
+        width: 10rem;
+        text-align: center;
+        display: inline-block;
+        background-color: #f0a500;
+        
+    }    
+    nav li:hover{
+        background-color: black;
+    }
 header{
     background-color: black;
     font-family: Fuentetitulo;
