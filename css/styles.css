@@ -38,6 +38,7 @@ nav{
         } 
 header{
     background-color: black;
+    font-family: Fuentetitulo;
     font-size: 3.5em;
     color:  white;
     margin: 0 10%;
@@ -62,6 +63,8 @@ h1, h2 {
 }
 h1{
     font-size: 2em;
+    margin: 0em;
+    padding-top: 1em;
 }
 p {
     font-family: Fuenteparrafo;
@@ -88,7 +91,7 @@ article  a:link{
      color:blue;
  }
 article a:visited{
-     color:brown;
+     color:red;
  }
 article a:focus{
      border: 1px dotted black;
